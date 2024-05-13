@@ -1,0 +1,29 @@
+p::first-line {
+    color: red;
+}
+
+h1::first-letter {
+    color: red;
+    font-size: 5rem;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* conteudo antes do elemento */
+li::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(Google-favicon-2015.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+

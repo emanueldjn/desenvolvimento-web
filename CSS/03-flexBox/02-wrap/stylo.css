@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; /* wrap-reverse */ 
+    /* 2 linhas quando diminui e tela */
+    
+    
+    background-color: darkgray;
+    height: 400px;
+    color: white;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: darkblue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+
+.rect {
+    width: 200px;
+    height: 200px;
+}
