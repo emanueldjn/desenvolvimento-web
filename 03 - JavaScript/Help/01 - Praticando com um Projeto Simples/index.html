@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando com o DOM</title>
+</head>
+<body>
+    <h1 id="titulo">Esse é o titulo original</h1>
+    <p id="paragrafo">Esse é o paragrafo original</p>
+
+    <button id="botao">Clique em mim!</button>
+
+    <script>
+       let botao = documento.getElementyById('botao')
+       botao.addEventListener('click', function() {
+        
+        let titulo = document.getElementById('titulo')
+        let paragrafo = document.getElementById('paragrafo')
+        titulo.innerHTML = "Recebendo o novo titulo"
+        paragrafo.textContent = "texto do paragrafo alterado"
+       })
+
+    </script>
+</body>
+</html>
