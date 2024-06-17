@@ -17,11 +17,15 @@ function handleClick(event) {
     if (handleMove(postion)) {
 
         setTimeout(() => {
-            alert(" O Jogo Acabou! O Vencedor foi " + playerTime);
+            alert(" O Jogo Acabou! O Vencedor foi " + getPlayerSymbol(playerTime));
         }, 10);
 
     };
     updateSquare(postion);
+}
+
+function getPlayerSymbol(playerTime) {
+    return playerTime === 0 ? 'O' : 'X';
 }
 
 function updateSquare(postion) {
