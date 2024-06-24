@@ -20,6 +20,7 @@ function calcular() {
     resultado.innerHTML += `<p>${Math.ceil(qdtTotalBebidas/2000)} Garrafas de refrigerante.</p>` // Não bebemos cerveja 
 }
 
+// função para calcular a
 function carnePP(duracao) {
     let carne = 400;
     if (duracao >= 6) {
